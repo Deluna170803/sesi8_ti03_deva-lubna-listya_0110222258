@@ -1,0 +1,43 @@
+/*reset margin dan padding*/
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+header, article, nav, aside, footer{
+    padding: 1rem;
+
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer{
+    height: 20vh;/*mengatur layar*/
+    background: khaki;
+
+}
+
+.container{
+    display: flex;
+    flex-grow: 1;
+}
+
+article{
+    flex-grow: 1; /*supaya elemenya bisa mengisi di ruang yang kosong dikontainer*/
+}
+aside{
+    background-color:pink;
+    flex: 0 0 20vw;
+
+}
+
+nav{
+    background: #03dac5;
+    flex: 0 0 20vw;
+}

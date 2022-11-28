@@ -1,0 +1,52 @@
+/*reset margin dan padding*/
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav, header, article, aside, footer{
+    padding: 1rem;
+
+}
+
+nav {
+    background-color: #FFC0CB;
+}
+
+.container, .navigasi{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.navigasi{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+
+header, footer{
+    height: 20vh;/*mengatur layar*/
+    background: #F0E68C;
+
+}
+
+.kontainer{
+    display: flex;
+    flex-grow: 1;
+}
+
+article{
+    flex-grow: 1; /*supaya elemenya bisa mengisi di ruang yang kosong dikontainer*/
+}
+aside{
+    background-color:#00FFFF;
+    flex: 0 0 20vw;
+
+}
+
